@@ -1,0 +1,71 @@
+{
+  "skyMood": {
+    "type": "dropdown",
+    "value": 0,
+    "text": "Sky mood",
+    "items": ["Sunny Noon", "Golden Hour"]
+  },
+  "sealSize": {
+    "type": "slider",
+    "value": 1,
+    "text": "Seal size",
+    "min": 0.6,
+    "max": 1.6,
+    "step": 0.05
+  },
+  "sealSpeed": {
+    "type": "slider",
+    "value": 1,
+    "text": "Flop speed",
+    "min": 0.5,
+    "max": 2.5,
+    "step": 0.1
+  },
+  "bubbleTime": {
+    "type": "slider",
+    "value": 2.5,
+    "text": "Speech bubble time (s)",
+    "min": 1,
+    "max": 6,
+    "step": 0.5
+  },
+  "sleepAfter": {
+    "type": "slider",
+    "value": 30,
+    "text": "Nap after idle (s, 0 = never)",
+    "min": 0,
+    "max": 180,
+    "step": 5
+  },
+  "sounds": {
+    "type": "textbox",
+    "value": "Arf! Arf!, Ow ow ow!, Aaarrf~, Hoonk!, Ork ork ork!, Awoo~, Bwaaah!, Errrp!, Arf?, Wheee~, Blub blub!, *happy seal noises*",
+    "text": "Seal sounds (comma separated)"
+  },
+  "showGulls": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Seagulls"
+  },
+  "showTracks": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Flipper tracks in the sand"
+  },
+  "showSandcastle": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Sandcastle"
+  },
+  "fpsLimit": {
+    "type": "dropdown",
+    "value": 1,
+    "text": "Frame rate",
+    "items": ["30 FPS (battery saver)", "60 FPS", "Unlimited"]
+  },
+  "resetSeal": {
+    "type": "button",
+    "value": "Call the seal back",
+    "text": "Seal position"
+  }
+}

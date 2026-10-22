@@ -1,0 +1,14 @@
+{
+  "AppVersion": "2.0.0.0",
+  "Title": "Seal Beach",
+  "Thumbnail": "thumbnail.png",
+  "Preview": null,
+  "Desc": "A cute seal on a sunny beach. Click anywhere to make it flop over; click the seal to hear it talk.",
+  "Author": "Sachintha Wijesundara",
+  "License": "MIT",
+  "Contact": "https://github.com/SachinthaWijesundara/Live-Seal-Wallpaper",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": null,
+  "IsAbsolutePath": false
+}
